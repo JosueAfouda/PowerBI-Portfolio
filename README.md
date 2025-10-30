@@ -15,56 +15,124 @@ Hello! I'm Adegbola Aremou 🤓, a Freelance Power BI Data Analyst | Course Crea
 
 ![](/images/Analyzing_Healthcare_Data_pages/Analyzing_Healthcare_Data_page1.png)
 
-The first page contains sales report by country, segment, discount band and product. It also contains a multi row card at the top, to display the Total Amounts, Profit % and Average Order. There are few slicers on the right hand side to see the report by different selection range.
+In healthcare, improving efficiency while maintaining high-quality patient care is a top priority. In this Power BI Project, I explored a real-world dataset (The health information in this dataset is not individually identifiable. This means the dataset does not contain personal health information.) to uncover hospital efficiency insights for a consulting company called HealthStat. I analyzed attributes impacting the patient length of stay (LOS) and cost and work to identify factors contributing to hospital differences. I used my Power Query DAX and Power BI Desktop skills to clean/transform data, create measures and generate insightful visualizations. To finish off, i have compiled it all together in a sophisticated business dashboard to communicate insights for the HealthStat team.
 
-The second page of report contains Tooltip reporting which is linked with the third page. DAX Dynamic Measure and Bookmarks technics are also used along with the map, area chart and line-clustered column chart to display total amounts, profit by coutries and month.
+### LOS (Length Of Stay) Comparison
 
 ![](/images/Analyzing_Healthcare_Data_pages/Analyzing_Healthcare_Data_page2.png) 
 
+
+
+### Cost Comparison
+
 ![](/images/Analyzing_Healthcare_Data_pages/Analyzing_Healthcare_Data_page3.png) 
 
+
+
+### Hospital Profile
+
 ![](/images/Analyzing_Healthcare_Data_pages/Analyzing_Healthcare_Data_page4.png)
+
 
 
 ## Customer Churn Analysis in Power BI
 
 ![](/images/customer_churn_analysis_pages/customer_churn_analysis_page1.png)
 
-blablablabla
+For subscription-based businesses, reducing customer churn is a top priority. In this Power BI Project, i investigated a dataset from an example telecom company called Databel and analyzed their churn rates. Analyzing churn doesn’t just mean knowing what the churn rate is: it’s also about figuring out why customers are churning at the rate they are, and how to reduce churn. I answered these questions by creating measures and calculated columns, while simultaneously creating eye-catching report pages.
+
+### Overview
+
+![](/images/customer_churn_analysis_pages/customer_churn_analysis_page1.png)
+
+
+
+### Age Groups
 
 ![](/images/customer_churn_analysis_pages/customer_churn_analysis_page2.png)
 
+
+
+### Contrat Type
+
 ![](/images/customer_churn_analysis_pages/customer_churn_analysis_page3.png)
 
+
+
+### Payments and Contracts
+
 ![](/images/customer_churn_analysis_pages/customer_churn_analysis_page4.png)
+
+
+
+### Extra Charges
+
+![](/images/customer_churn_analysis_pages/customer_churn_analysis_page5.png)
+
+
 
 ## Human Resources (HR) Analytics with PostgreSQL and Power BI
 
 ![](/images/hr_analytics_reporting_pages/hr_analytics_reporting_page1.png)
 
-The top section of all the report page contains flag (Country), date, category and sub category slicers along with total and gross amounts. The internet and reseller sales total and margin details are calculated through DAX measure. The third page of report has DAX Dynamic measure for both internet and reseller to select the donut charts individually.
+In this Power BI project, I explored a Human Resources (HR) dataset for a fictitious software company, Atlas Labs, to showcase my skills in Power BI. I focused on importing, cleaning, analyzing, and visualizing HR data to uncover meaningful insights.
 
-The first and second page displayed the sales, gross profit amounts by country (map) and year (bar charts). Again the matrix tables contain the detailed amounts by product category-sub category level, country-state province level.
+I performed exploratory data analysis and leveraged DAX to create dynamic, interactive visualizations. My analysis included a deep dive into employee attrition, identifying key factors that influence turnover and providing actionable insights for improving retention.
+
+The final deliverable was a professionally designed Power BI report with a clean, branded layout, highlighting critical HR metrics and insights for business decision-making.
+
+Skills demonstrated: Power BI, Data Modeling, DAX, Data Visualization, Exploratory Data Analysis, HR Analytics, Report Design.
+
+### Overview
+
+![](/images/hr_analytics_reporting_pages/hr_analytics_reporting_page1.png)
+
+
+
+### Demographics
 
 ![](/images/hr_analytics_reporting_pages/hr_analytics_reporting_page2.png)
 
+
+
+### Performance Tracker
+
 ![](/images/hr_analytics_reporting_pages/hr_analytics_reporting_page3.png)
+
+
+
+### Attrition
 
 ![](/images/hr_analytics_reporting_pages/hr_analytics_reporting_page4.png)
 
-![](/images/customer_churn_analysis_pages/customer_churn_analysis_page5.png)
+
 
 ## Analyzing Job Market Data in Power BI
 
 ![](/images/Analyzing_Job_Market_pages/Analyzing_Job_Market_page1.png)
 
-The report is created with date slicers, multi row card to display total amounts and quantities. The Total Purchases and Total PO's are measured against buying package, supplier, stock item, months through donut, bar chart and matrix tables.
+In this project, I explored a real-world job posting dataset for a fictional recruitment company, DataSearch, to analyze trends in the data science and analytics job market. I used Power Query to investigate, clean, and transform the data, uncovering which skills are most in-demand for data scientists, data analysts, and data engineers.
+
+I applied DAX to create dynamic visualizations that highlighted key trends and insights. Finally, I combined all findings into an interactive, business-ready Power BI dashboard, enabling the DataSearch team to make informed decisions and answer critical questions about talent demand.
+
+Skills demonstrated: Power BI, Power Query, DAX, Data Cleaning, Data Visualization, Dashboard Design, Job Market Analytics.
+
+### Jobs
 
 ![](/images/Analyzing_Job_Market_pages/Analyzing_Job_Market_page2.png)
 
+
+
+### Skills
+
 ![](/images/Analyzing_Job_Market_pages/Analyzing_Job_Market_page3.png)
 
+
+
+### Company
+
 ![](/images/Analyzing_Job_Market_pages/Analyzing_Job_Market_page4.png)
+
 
 
 ## CONTACT DETAILS
