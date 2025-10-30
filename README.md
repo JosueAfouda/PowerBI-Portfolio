@@ -6,7 +6,7 @@
 
 ## ABOUT ME
 
-Hello! I'm Adegbola Aremou Josue Afouda (Yes, like any self-respecting African, I have three first names 🤓), a Power BI Data Analyst | Course Creator & Coach | YouTuber.
+Hello! I'm Adegbola Aremou 🤓, a Freelance Power BI Data Analyst | Course Creator & Coach | YouTuber.
 
 ***Below, you will find some of my Power BI projects:***
 
