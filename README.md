@@ -17,10 +17,6 @@ Hello! I'm Adegbola Aremou 🤓, a Freelance Power BI Data Analyst | Course Crea
 
 In healthcare, improving efficiency while maintaining high-quality patient care is a top priority. In this Power BI Project, I explored a real-world dataset (The health information in this dataset is not individually identifiable. This means the dataset does not contain personal health information.) to uncover hospital efficiency insights for a consulting company called HealthStat. I analyzed attributes impacting the patient length of stay (LOS) and cost and work to identify factors contributing to hospital differences. I used my Power Query DAX and Power BI Desktop skills to clean/transform data, create measures and generate insightful visualizations. To finish off, i have compiled it all together in a sophisticated business dashboard to communicate insights for the HealthStat team.
 
-### Executive Summary
-
-This Power BI dashboard provides a comprehensive analysis of hospital performance, focusing on patient length of stay (LOS) and associated costs. By visualizing key metrics, we empower healthcare administrators and stakeholders to make data-driven decisions that enhance operational efficiency and reduce expenditures without compromising patient care. The report identifies significant trends and disparities among different hospitals, offering a clear path toward optimizing resource allocation and improving overall service delivery.
-
 ### Actionable Insights
 
 By interacting with this dashboard, stakeholders can:
@@ -74,29 +70,115 @@ This page offers a comparative view of the average Length of Stay (LOS) across d
 ![](/images/Analyzing_Healthcare_Data_pages/Analyzing_Healthcare_Data_page3.png)
 
 This page delves into the cost side of the equation, breaking down the average cost per stay by hospital. The variations in cost are even more pronounced than the variations in LOS. By cross-referencing this data with the LOS data, we can identify hospitals that are not only efficient in terms of time but also in terms of cost. We can also drill down to see which specific procedures or departments are driving up costs at underperforming hospitals. This information is critical for making targeted interventions to improve financial performance without compromising patient care.
+
+* **Overall hospital network overview**
+
+  * **Average LOS:** 2.65 days
+
+  * **Average Cost per Discharge:** **$21K**
+
+  * **151 hospitals**, representing **26K total discharges** — strong dataset coverage for benchmarking both efficiency and financial performance.
+
+* **Variation in cost efficiency across regions**
+
+  * Hospitals in **Capital/Adirondack** and **Southern Tier** regions show **significantly lower average costs per discharge** — reductions of **$9.3K** and **$8.6K** respectively.
+
+  * Other cost-efficient regions include **Central NY, Finger Lakes, and Western NY**, each showing average decreases between **$7.4K–$7.8K** compared to higher-cost peers.
+
+  * This suggests meaningful geographic cost variation likely linked to differences in patient mix, labor rates, or operational practices.
+
+* **High-cost hospitals**
+
+  * **Top 3 hospitals by cost per discharge:**
+
+    * *NYU Lutheran Medical Center* — **$85K**
+
+    * *Olean General Hospital* — **$81K**
+
+    * *Memorial Hospital for Cancer and Allied Diseases* — **$64K**
+
+  * These outliers represent opportunities for targeted financial performance reviews to identify inefficiencies or special case mixes driving cost inflation.
+
+* **Cost vs. LOS relationship (Scatter Plot)**
+
+  * The **Average LOS vs. Average Cost per Discharge** chart shows a **weak-to-moderate positive trend** — hospitals with longer LOS generally incur higher discharge costs, but there is **not a perfect linear correlation**.
+
+  * This suggests that some hospitals manage to maintain low LOS *and* moderate costs, pointing to **operational excellence models worth replicating**.
+
+**Example of Insight Using Dashboard Interactivity**
+
+> By selecting **“Capital/Adiron”** in the *Health Service Area* filter, the scatter plot immediately refocuses on a cluster of hospitals with **shorter LOS (<3 days)** and **below-average costs (<$15K per discharge)**.
+>
+> This interactive view highlights that the **Capital/Adirondack region combines both efficiency and cost control**, serving as a **benchmark area** for performance improvement across the network. Stakeholders could then drill down to specific hospitals in that region to uncover the practices — clinical pathways, resource utilization, or discharge planning — that enable this dual optimization of LOS and cost.
+
+---
+
 ### Hospital Profile
 
 ![](/images/Analyzing_Healthcare_Data_pages/Analyzing_Healthcare_Data_page4.png)
 
 This page provides a comprehensive, at-a-glance view of a selected hospital's performance. It includes key metrics such as the number of patients, average LOS, average cost, and patient demographics. This allows for a deep dive into the performance of a single hospital, making it possible to identify its strengths and weaknesses. For example, we can see if a hospital is admitting a higher proportion of high-risk patients, which might explain a longer LOS or higher costs. This detailed view is essential for conducting fair and accurate performance reviews and for developing targeted improvement plans.
+
+Key findings for the University Hospital include:
+
+* **Performance Overview**
+
+  * **Average Length of Stay (LOS):** **2.56 days**, slightly below the network benchmark of **2.65 days** → strong operational efficiency.
+
+  * **Average Cost per Discharge:** **$17K**, outperforming the network average of **$21K**, indicating effective cost management and resource utilization.
+
+* **Case Mix & Patient Severity**
+
+  * Majority of discharges (≈ **60–65%**) come from patients with **moderate severity of illness**, followed by **minor cases**, and a small share of **major cases**.
+
+  * This balanced mix suggests University Hospital manages both routine and moderately complex patients effectively without excessive LOS or cost inflation.
+
+* **Mortality Risk Profile**
+
+  * Over **75%** of patients are categorized under **minor risk of mortality**, implying that most admissions are lower-risk procedures or recoveries — consistent with a lower average LOS.
+
+  * Moderate and major risk cases are limited, suggesting that severe, resource-intensive cases are referred elsewhere or represent a small proportion of the hospital’s portfolio.
+
+* **Diagnostic Drivers**
+
+  * **Osteoarthritis** dominates discharges (**≈89%**) — likely reflecting a specialization in orthopedic surgery, particularly joint replacement or related elective procedures.
+
+  * Other diagnoses (fractures, bone disorders, rheumatoid arthritis) form a small but relevant subset — indicating orthopedic care as a strategic focus area.
+
+* **Patient Disposition Patterns**
+
+  * Most patients (**≈77%**) are discharged **home or to self-care**, with another **10%** discharged **home with home health services**.
+
+  * Only a small proportion go to **skilled nursing** or **inpatient rehab** facilities — showing effective discharge planning and relatively quick post-acute transitions.
+
+**Example of Insight Using Dashboard Interactivity**
+
+> By selecting **different hospitals** in the drop-down filter, stakeholders can **benchmark LOS and cost performance** relative to the network average gauges (2.65 days / $21K).
+>
+> For instance, selecting *University Hospital* instantly reveals that it performs **better than average in both LOS and cost**, and that its **case mix is dominated by moderate orthopedic cases with low mortality risk**.
+>
+> This interactive comparison allows decision-makers to **identify top-performing hospitals like University Hospital as operational benchmarks**, guiding best-practice sharing — such as efficient orthopedic workflows, early discharge protocols, or optimized resource allocation.
+
+---
+
 ## Customer Churn Analysis in Power BI
 
 ![](/images/customer_churn_analysis_pages/customer_churn_analysis_page1.png)
 
 For subscription-based businesses, reducing customer churn is a top priority. In this Power BI Project, i investigated a dataset from an example telecom company called Databel and analyzed their churn rates. Analyzing churn doesn’t just mean knowing what the churn rate is: it’s also about figuring out why customers are churning at the rate they are, and how to reduce churn. I answered these questions by creating measures and calculated columns, while simultaneously creating eye-catching report pages.
 
-### Executive Summary
-
-This dashboard offers a deep dive into customer churn for Databel, a leading telecom company. It provides a clear and concise overview of churn rates, identifies the key drivers of customer attrition, and segments customers to reveal at-risk groups. By leveraging this data, stakeholders can develop targeted retention strategies, improve customer satisfaction, and ultimately protect the company's revenue streams. The insights generated are designed to be immediately actionable, enabling proactive measures to reduce churn.
-
 ### Actionable Insights
 
 By interacting with this dashboard, stakeholders can:
 
 - **Identify At-Risk Customer Segments:** Analyze churn by demographic data such as age, gender, and location to tailor marketing and retention efforts.
+
 - **Understand the Impact of Contract Type:** See how churn rates differ between month-to-month, one-year, and two-year contracts to encourage longer-term commitments.
+
 - **Evaluate the Role of Payment Methods:** Determine if there is a correlation between payment methods (e.g., credit card, bank transfer, electronic check) and customer churn.
+
 - **Analyze the Effect of Additional Services:** Investigate how services like online security, tech support, and streaming TV influence customer loyalty.
+
 - **Pinpoint Service Issues:** Drill down into customer complaints and technical support inquiries to identify and address operational issues that lead to churn.
 
 
@@ -105,26 +187,31 @@ By interacting with this dashboard, stakeholders can:
 ![](/images/customer_churn_analysis_pages/customer_churn_analysis_page1.png)
 
 This overview page provides a high-level summary of customer churn at Databel. It highlights the overall churn rate, the total number of churned customers, and the financial impact of this churn. The page is designed to give executives a quick snapshot of the health of the customer base and to alert them to any significant changes in churn trends. The key metrics are presented in a clear and concise way, allowing for immediate understanding and action.
+
 ### Age Groups
 
 ![](/images/customer_churn_analysis_pages/customer_churn_analysis_page2.png)
 
 This page segments customer churn by age group, revealing which demographics are most likely to churn. For example, we might discover that younger customers are more likely to churn than older customers. This insight would allow us to create targeted marketing campaigns and retention offers for different age brackets. Understanding the generational differences in customer loyalty is key to developing a successful, multi-faceted retention strategy.
+
 ### Contrat Type
 
 ![](/images/customer_churn_analysis_pages/customer_churn_analysis_page3.png)
 
 This page analyzes the impact of contract type on customer churn. It's no surprise that customers on month-to-month contracts are more likely to churn than those on longer-term contracts. This visualization quantifies that difference, showing exactly how much of a loyalty boost a one-year or two-year contract provides. This data can be used to inform pricing strategy and to design incentives that encourage customers to sign up for longer-term commitments.
+
 ### Payments and Contracts
 
 ![](/images/customer_churn_analysis_pages/customer_churn_analysis_page4.png)
 
 This page provides a deeper dive into the interplay between payment methods, contract types, and churn. For example, we might find that customers who pay by electronic check and are on a month-to-month contract have the highest churn rate. This kind of granular insight is invaluable for identifying high-risk customer segments and for developing targeted interventions. For instance, we could offer a discount to these customers if they switch to a more secure payment method and a longer-term contract.
+
 ### Extra Charges
 
 ![](/images/customer_churn_analysis_pages/customer_churn_analysis_page5.png)
 
 This page examines the role of extra charges, such as for premium channels or extra data, in driving customer churn. It might reveal that customers who have a high number of extra charges are more likely to churn, perhaps because they feel they are not getting good value for their money. This insight could lead to a simplification of the pricing structure or to the creation of bundled packages that offer better value.
+
 ## Human Resources (HR) Analytics with PostgreSQL and Power BI
 
 ![](/images/hr_analytics_reporting_pages/hr_analytics_reporting_page1.png)
@@ -135,18 +222,18 @@ I performed exploratory data analysis and leveraged DAX to create dynamic, inter
 
 The final deliverable was a professionally designed Power BI report with a clean, branded layout, highlighting critical HR metrics and insights for business decision-making.
 
-### Executive Summary
-
-This HR Analytics dashboard for Atlas Labs provides a comprehensive overview of the company's workforce, with a special focus on employee attrition. The report empowers HR managers and executives to understand the key drivers of turnover, identify departments and roles with high attrition rates, and assess the impact of factors like salary, job satisfaction, and work-life balance. These insights are crucial for developing effective retention strategies and fostering a positive work environment.
-
 ### Actionable Insights
 
 By interacting with this dashboard, stakeholders can:
 
 - **Identify Attrition Hotspots:** Pinpoint the departments, job roles, and locations with the highest employee turnover.
+
 - **Analyze the Impact of Compensation:** Explore the relationship between salary, pay raises, and attrition to ensure competitive compensation packages.
+
 - **Assess Employee Satisfaction:** Correlate job satisfaction scores with attrition rates to identify areas for improvement in the work environment.
+
 - **Understand Demographic Trends:** Analyze attrition by age, gender, and tenure to develop targeted retention initiatives for different employee groups.
+
 - **Evaluate Performance and Attrition:** Investigate the connection between performance ratings and employee turnover to retain top talent.
 
 
@@ -184,18 +271,18 @@ In this project, I explored a real-world job posting dataset for a fictional rec
 
 I applied DAX to create dynamic visualizations that highlighted key trends and insights. Finally, I combined all findings into an interactive, business-ready Power BI dashboard, enabling the DataSearch team to make informed decisions and answer critical questions about talent demand.
 
-### Executive Summary
-
-This Power BI dashboard provides a detailed analysis of the data science and analytics job market, tailored for the recruitment company DataSearch. The report offers a comprehensive view of job trends, in-demand skills, and company hiring patterns. By leveraging these insights, DataSearch can better advise its clients, optimize its recruitment strategies, and stay ahead of the competition in a fast-evolving job market. The dashboard is designed to be a strategic tool for identifying opportunities and making data-driven recommendations.
-
 ### Actionable Insights
 
 By interacting with this dashboard, stakeholders can:
 
 - **Identify In-Demand Skills:** Analyze which technical skills (e.g., Python, R, SQL, Tableau) are most frequently requested by employers for different job roles.
+
 - **Track Job Title Trends:** See the rise and fall in demand for specific job titles like Data Scientist, Data Analyst, and Data Engineer.
+
 - **Analyze Company Hiring Behavior:** Identify which companies are hiring the most and what their typical job requirements are.
+
 - **Explore Geographic Trends:** Filter job postings by location to understand regional differences in demand and salary.
+
 - **Advise on Skill Development:** Use the data to advise job seekers and corporate clients on the most valuable skills to develop for a career in data.
 
 
