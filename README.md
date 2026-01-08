@@ -321,7 +321,7 @@ Skills demonstrated: Power BI, Power Query, DAX, Data Cleaning, Data Visualizati
     </tr>
     <tr>
       <td>⬇️</td>
-      <td><a href="https://drive.google.com/file/d/1Tt1t8BoWD-d6SeLtp9Bxwsvmt19PmTJG/view?usp=sharing">Download my CV</a></td>
+      <td><a href="https://drive.google.com/file/d/1QgR5lBgUUknwrJi0hEytz6v5g5XZ-DAm/view?usp=sharing">Download my CV</a></td>
     </tr>
     <tr>
       <td>🌐</td>
