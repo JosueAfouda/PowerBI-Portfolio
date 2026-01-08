@@ -6,7 +6,7 @@
 
 ## ABOUT ME
 
-Hello! I'm Adegbola Aremou 🤓, a Freelance Power BI Data Analyst | Course Creator & Coach | YouTuber.
+Hello! I'm Adegbola Afouda 🤓, a Freelance Power BI Data Analyst | Course Creator & Coach | YouTuber.
 
 ***Below, you will find some of my Power BI projects:***
 
@@ -313,7 +313,7 @@ Skills demonstrated: Power BI, Power Query, DAX, Data Cleaning, Data Visualizati
   <tbody>
     <tr>
       <td>📧</td>
-      <td><a href="mailto:josh.aremou229@gmail.com">josh.aremou229@gmail.com</a></td>
+      <td><a href="mailto:josh.aremou229@gmail.com">afouda.josue@gmail.com</a></td>
     </tr>
     <tr>
       <td>📍</td>
